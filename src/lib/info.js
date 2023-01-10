@@ -8,12 +8,9 @@ export const website = 'https://osfanbuff63.tech'
 export const name = `osfanbuff63`
 
 // Used for the landing page & footer of posts
-export const avatar = 'avatar.svg'
+export const avatar = '/avatar.svg'
 export const bio = `\
-I’m osfanbuff63, a software engineer based in Canada. Lorem ipsum dolor sit amet, consectetur
-adipiscing elit. Phasellus accumsan quam at eros malesuada, id luctus lectus efficitur. Nulla
-sit amet arcu mi. Duis quis mauris malesuada, posuere orci et, pulvinar nisl. Nam malesuada
-vehicula sapien vitae sagittis.
+I’m osfanbuff63, a software developer mostly in the Minecraft space.
 `
 
 // Your social usernames, empty strings won't be used.
@@ -22,5 +19,4 @@ vehicula sapien vitae sagittis.
 export const github = 'osfanbuff63'
 // Must be a URL
 export const mastodon = 'https://blobfox.coffee/@osfanbuff63'
-export const linkedin = ''
 export const codeberg = 'osfanbuff63'
