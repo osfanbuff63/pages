@@ -22,7 +22,7 @@ pipeline:
       - git config user.email "automation+noreply@osfanbuff63.tech" ; git config user.name "Website Updater"
       - git add .
       - git diff-index --quiet HEAD || git commit -m 'publish' -a
-      - git push --force origin main
+      - git push --force -u origin
     when:
       event: [push, manual]
       branch: main
