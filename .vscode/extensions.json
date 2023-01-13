@@ -1,6 +1,3 @@
 {
-    "recommendations": [
-        "svelte.svelte-vscode",
-        "davidanson.vscode-markdownlint"
-    ]
+  "recommendations": ["svelte.svelte-vscode", "davidanson.vscode-markdownlint"]
 }
