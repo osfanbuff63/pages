@@ -6,7 +6,7 @@ pipeline:
       - corepack prepare yarn@3.2.2 --activate
       - yarn
     when:
-      event: [push, tag, deployment]
+      event: [push, tag, deployment, manual]
 
   publish:
     image: node:18
@@ -15,7 +15,7 @@ pipeline:
       - corepack enable
       - corepack prepare yarn@3.2.2 --activate
       - yarn build
-      - git clone https://codeberg.org/osfanbuff63/pages /tmp/pages
+      - git clone https://osfanbuff63:@$TOKENcodeberg.org/osfanbuff63/pages /tmp/pages
       - git -C /tmp/pages switch -C main
       - mv /tmp/pages/.git build
       - cd build
@@ -24,5 +24,8 @@ pipeline:
       - git diff-index --quiet HEAD || git commit -m 'publish' -a
       - git push --force origin main
     when:
-      event: [push]
+      event: [push, manual]
       branch: main
+    settings:
+      token:
+        from_secret: push_token
