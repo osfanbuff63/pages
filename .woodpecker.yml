@@ -16,7 +16,7 @@ pipeline:
       - corepack prepare yarn@3.2.2 --activate
       - yarn build
       - git clone https://osfanbuff63:@$${push_token}codeberg.org/osfanbuff63/pages /tmp/pages
-      - git -C /tmp/pages switch -C main
+      - git -C /tmp/pages checkout main
       - mv /tmp/pages/.git build
       - cd build
       - git config user.email "automation+noreply@osfanbuff63.tech" ; git config user.name "Website Updater"
