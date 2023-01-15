@@ -1,6 +1,6 @@
 ---
 title: My new blog with SvelteKit
-date: 2022-01-09
+date: 2023-01-09
 ---
 
 After what felt like 15 years, I finally fixed my website. Well - sorta.
