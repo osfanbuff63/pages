@@ -1,3 +1,7 @@
+bin/.venv
+bin/build_svelte.egg-info
+__pycache__/
+*.pyc
 .DS_Store
 node_modules
 .svelte-kit
@@ -6,3 +10,4 @@ node_modules
 /public
 .yarn*
 *.md.wip
+.venv
