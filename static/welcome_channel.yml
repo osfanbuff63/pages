@@ -22,7 +22,9 @@
       color: 0xff496e
       description: "6. Harass, bother, provoke, or insult anyone\n
         7. Cause problems or impede project development\n
-        8. Discuss drama from other places\n"
+        8. Discuss drama from other places\n
+        9. Use modified Discord client features such as message loggers or viewing hidden channels. 
+           Modded Discord clients *are* allowed if you do not use these features"
 
 - type: links
   color: 0x00aff4
@@ -50,3 +52,6 @@
     1082296725856845875:
       description: Get notified about server news.
       emoji: ":mega:"
+    1082318007788904508:
+      description: Get notified when something goes down.
+      emoji: "<:blobfoxoutage:1082300278541402203>"
