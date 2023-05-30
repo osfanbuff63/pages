@@ -7,6 +7,6 @@ So I've done a thing! My new Minecraft note block song is out, published on [You
 
 Here's some more downloads, while I try to think of what else to put here:
 
-[NBS file](/files/mii_channel.nbs) - used for Note Block Studio
-[MP3](/files/mii_channel.mp3) - raw file
-[Minecraft data pack](/files/mii_channel.zip) - requires [this resource pack](https://github.com/OpenNBS/OpenNoteBlockStudio/raw/master/datafiles/Data/extranotes.zip), then once you install it you can run `/function osfanbuff63:songs/mii_channel/play` to play it.
+- [NBS file](/files/mii_channel.nbs) - used for Note Block Studio
+- [MP3](/files/mii_channel.mp3) - raw file
+- [Minecraft data pack](/files/mii_channel.zip) - requires [this resource pack](https://github.com/OpenNBS/OpenNoteBlockStudio/raw/master/datafiles/Data/extranotes.zip), then once you install it you can run `/function osfanbuff63:songs/mii_channel/play` to play it.
