@@ -44,6 +44,5 @@
 		"node-html-parser": "^5.2.0",
 		"reading-time": "^1.5.0",
 		"reading-time-estimator": "^1.4.33"
-	},
-	"packageManager": "yarn@3.3.1"
+	}
 }
