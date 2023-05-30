@@ -20,9 +20,10 @@ const config = {
     adapter: adapter(),
 
     // remove this if you don't want prerendering
-    prerender: {
-      entries: ['*', '/sitemap.xml', '/rss.xml']
-    }
+    /*prerender: {
+      entries: ['*', '/sitemap.xml', '/rss.xml'],
+      handleHttpError: 'warn'
+    }*/
   }
 }
 

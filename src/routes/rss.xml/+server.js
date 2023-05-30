@@ -5,7 +5,7 @@
 import { posts } from '$lib/data/posts'
 import { name, website } from '$lib/info'
 
-export const prerender = true
+// export const prerender = true
 
 // update this to something more appropriate for your website
 const websiteDescription = `${name}'s blog`
