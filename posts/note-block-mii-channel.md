@@ -1,5 +1,6 @@
 ---
 title: "Minecraft Note Blocks: Mii Channel Theme - Behind the Scenes"
+date: 2023-05-30
 ---
 
 So I've done a thing! My new Minecraft note block song is out, published on [YouTube](https://www.youtube.com/watch?v=6avoa8huOOo) and [PeerTube](https://video.mycrowd.ca/w/vzPqq4Qq1A2GtBzLsLbDZo)
