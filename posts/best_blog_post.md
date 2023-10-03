@@ -1,0 +1,1 @@
+<meta http-equiv="refresh" url="https://www.youtube.com/shorts/ZMTSk8_ZjhE">
