@@ -4,31 +4,33 @@
       url: https://osfanbuff63.tech
 - type: embed
   embeds:
-    - title: "**:scroll: __Rules__**"
+    - title: '**:scroll: __Rules__**'
       color: 0x0d939a
-      description: "This server's rules are fairly simple to follow, but ultimately, it is up to the discretion of the moderators whether your
+      description:
+        "This server's rules are fairly simple to follow, but ultimately, it is up to the discretion of the moderators whether your
         messages are in violation of our rules.\n\n
         The rules are split up into two categories: the **__DOs__** and the **__DO NOTs__**."
-    - title: ":white_check_mark: Do:"
+    - title: ':white_check_mark: Do:'
       color: 0x1bd96a
-      description: "1. Treat every user with respect and consider the opinions and viewpoints of others\n
+      description:
+        "1. Treat every user with respect and consider the opinions and viewpoints of others\n
         2. Stay on-topic in all channels as much as possible. For example, keep project discussion to <#1082294234905849876>\n
         3. Follow Discord's rules, including the [Community Guidelines](https://discord.com/guidelines) and the
-          [Terms of Service](https://discord.com/terms)\n
+        [Terms of Service](https://discord.com/terms)\n
         4. Contact moderators via the <@&1005547850320576523> ping if you feel
-          someone else is breaking the rules\n
+        someone else is breaking the rules\n
         5. Respect the use of accessibility and self-identity tools such as [PluralKit](https://pluralkit.me)"
-    - title: ":no_entry: Do not:"
+    - title: ':no_entry: Do not:'
       color: 0xff496e
       description: "6. Harass, bother, provoke, or insult anyone\n
         7. Cause problems or impede project development\n
         8. Discuss drama from other places\n
-        9. Use modified Discord client features such as message loggers or viewing hidden channels. 
-           Modded Discord clients *are* allowed if you do not use these features"
+        9. Use modified Discord client features such as message loggers or viewing hidden channels.
+        Modded Discord clients *are* allowed if you do not use these features"
 
 - type: links
   color: 0x00aff4
-  title: "**:link: __Links__**"
+  title: '**:link: __Links__**'
   links:
     Website and blog: https://osfanbuff63.tech
     Status page: https://status.osfanbuff63.tech
@@ -41,17 +43,17 @@
 - type: roles
   id: community-roles
   color: 0x0d939e
-  title: "**:raising_hand: __Opt-in roles__**"
+  title: '**:raising_hand: __Opt-in roles__**'
   description: Click the button below to assign or remove any of the following roles.
   template: "{EMOJI} **{NAME}**: {DESCRIPTION}\n"
 
   roles:
     1082296272142217276:
       description: Get notified when I update a project or release a new one
-      emoji: "<:osfanbuff63:1082321003373400106>"
+      emoji: '<:osfanbuff63:1082321003373400106>'
     1082296725856845875:
       description: Get notified about server news.
-      emoji: ":mega:"
+      emoji: ':mega:'
     1082318007788904508:
       description: Get notified when something goes down.
-      emoji: "<:blobfoxoutage:1082300287227805696>"
+      emoji: '<:blobfoxoutage:1082300287227805696>'

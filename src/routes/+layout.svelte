@@ -1,11 +1,12 @@
 <script>
-  import '../app.css'
-  import '../prism.css'
-  import MoonIcon from 'heroicons-svelte/solid/MoonIcon.svelte'
-  import SunIcon from 'heroicons-svelte/solid/SunIcon.svelte'
-  import { browser } from '$app/environment'
-  import { name } from '$lib/info'
-  import { page } from '$app/stores'
+  import '../app.css';
+  import '../prism.css';
+  import Icon from 'svelte-awesome';
+  import moonO from 'svelte-awesome/icons/moonO';
+  import sunO from 'svelte-awesome/icons/sunO';
+  import { browser } from '$app/environment';
+  import { name } from '$lib/info';
+  import { page } from '$app/stores';
 
   let isDarkMode = browser ? Boolean(document.documentElement.classList.contains('dark')) : true
 
@@ -46,8 +47,8 @@
           }
         }}
       >
-        <MoonIcon class="hidden text-zinc-500 dark:block" />
-        <SunIcon class="block text-zinc-400 dark:hidden" />
+        <Icon data="{moonO}" class="hidden text-zinc-500 dark:block" />
+        <Icon data="{sunO}" class="block text-zinc-400 dark:hidden" />
       </button>
     </header>
     <main

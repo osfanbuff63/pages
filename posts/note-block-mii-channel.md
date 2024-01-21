@@ -1,5 +1,5 @@
 ---
-title: "Minecraft Note Blocks: Mii Channel Theme - Behind the Scenes"
+title: 'Minecraft Note Blocks: Mii Channel Theme - Behind the Scenes'
 date: 2023-05-30
 ---
 
