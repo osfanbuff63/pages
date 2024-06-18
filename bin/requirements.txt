@@ -18,5 +18,5 @@ pygit2==1.11.1
     # via build-svelte (pyproject.toml)
 requests==2.31.0
     # via build-svelte (pyproject.toml)
-urllib3==1.26.18
+urllib3==1.26.19
     # via requests
