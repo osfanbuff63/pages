@@ -4,7 +4,7 @@
 #
 #    pip-compile --resolver=backtracking pyproject.toml
 #
-certifi==2023.7.22
+certifi==2024.7.4
     # via requests
 cffi==1.15.1
     # via pygit2
