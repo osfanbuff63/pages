@@ -10,7 +10,7 @@ cffi==1.15.1
     # via pygit2
 charset-normalizer==3.0.1
     # via requests
-idna==3.4
+idna==3.7
     # via requests
 pycparser==2.21
     # via cffi
